@@ -4,7 +4,6 @@ const { Preset } = require('use-preset');
 module.exports = Preset.make('NextJS Tailwind CSS')
 
 	.editJson('package.json')
-        .title('Add Tailwind CSS')
         .copyTemplates()
 		.merge({
 			devDependencies: {
